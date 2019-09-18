@@ -1,0 +1,10 @@
+>>> ord('W')
+87
+
+
+>>> ord(W)
+Traceback (most recent call last):
+File "<pyshell#2>", line 1, in <module>
+ord(W)
+NameError: name 'W' is not defined
+
