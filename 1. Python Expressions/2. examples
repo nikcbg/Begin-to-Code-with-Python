@@ -1,0 +1,32 @@
+>>> 'hello'
+'hello'
+
+
+>>> 'hello' + ' world'
+'hello world'
+
+
+>>> 'hello
+SyntaxError: EOL while scanning string literal
+
+
+>>> 'hello' - ' world'
+Traceback (most recent call last):
+File "<pyshell#11>", line 1, in <module>
+'hello' - ' world'
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+
+
+>>> 'hello' + 2
+Traceback (most recent call last):
+File "<pyshell#14>", line 1, in <module>
+'hello' + 2
+TypeError: must be str, not int
+
+
+>>> 'hello' + '2'
+'hello2'
+
+
+>>> 'hello' * 3
+'hellohellohello'
