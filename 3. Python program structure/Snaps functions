@@ -1,0 +1,18 @@
+import snaps
+snaps.display_message('hello world')
+
+
+import snaps 
+snaps.display_message('This is smaller text in green on the top left',
+color=(0,255,0),size=50,horiz='left',vert='top')
+
+
+import snaps
+snaps.display_image('Housemartins.jpg')
+snaps.display_message('Hull Rocks',color=(255,255,255), vert='top')
+
+
+import snaps
+snaps.play_sound('ding.wav')
+
+
