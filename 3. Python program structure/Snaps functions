@@ -7,6 +7,7 @@ snaps.display_message('This is smaller text in green on the top left',
 color=(0,255,0),size=50,horiz='left',vert='top')
 
 
+# you need an image with the coresponding name in the same folder where your .py file is located.
 import snaps
 snaps.display_image('Housemartins.jpg')
 snaps.display_message('Hull Rocks',color=(255,255,255), vert='top')
@@ -14,5 +15,3 @@ snaps.display_message('Hull Rocks',color=(255,255,255), vert='top')
 
 import snaps
 snaps.play_sound('ding.wav')
-
-
