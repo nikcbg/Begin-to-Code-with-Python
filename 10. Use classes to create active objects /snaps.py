@@ -424,4 +424,3 @@ def get_weather_desciption(latitude,longitude):
                                         if t.get('weather-summary') is not None:
                                             return t.get('weather-summary')
 
-
